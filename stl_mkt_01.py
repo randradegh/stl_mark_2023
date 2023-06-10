@@ -120,7 +120,7 @@ with col1:
     st.line_chart(chart_data)
 
 with col2:
-    st.header("Gráficos de área")
+    st.header("Gráfico de área")
     chart_data = pd.DataFrame(
         np.random.randn(20, 3),
         columns=['a', 'b', 'c'])
@@ -189,5 +189,14 @@ Para desarrollar este sitio web se usaron las siguientes bibliotecas de Python:
 Se usó el conjunto de datos (*dataset*)de estacionamiento de bicicletas de San Francisco, Cal., USA., en formato JSON:
 
 https://github.com/visgl/deck.gl/blob/master/examples/layer-browser/data/sf.bike.parking.json
+
+### Ponente
+
+**Roberto Andrade F.**
+- Analista de Datos,
+- DBA,
+- Instructor de PostgreSQL,
+- Profesor de la Maestría en Alta dirección de la FQ de la UNAM.
+
 """
 
