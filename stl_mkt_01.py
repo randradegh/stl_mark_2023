@@ -168,6 +168,26 @@ Vía Google Meet.
 
 ### Inversión
 """
-new_title = '<p style="font-family:sans-serif; color:Brown; font-size: 18px;">$1,200 MX</p>'
+new_title = '<p style="color:Brown; font-size: 17px;">$1,200 MX</p>'
 st.markdown(new_title, unsafe_allow_html=True)
+
+"""
+### Informes para inscripción
+
+Envía un correo electrónico a randradedev@gmail.com para obtener más detalles sobre el curso y 
+la manera de inscribirte al curso.
+
+### Herramientas
+Para desarrollar este sitio web se usaron las siguientes bibliotecas de Python:
+- Streamlit
+- Pandas
+- Plotly
+- Numpy y
+- pydeck.
+
+### Datos
+Se usó el conjunto de datos (*dataset*)de estacionamiento de bicicletas de San Francisco, Cal., USA., en formato JSON:
+
+https://github.com/visgl/deck.gl/blob/master/examples/layer-browser/data/sf.bike.parking.json
+"""
 
